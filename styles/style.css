@@ -223,6 +223,10 @@
 .staff {
   padding: 100px 0 140px;
   background-image: url(../images/staff_picks_background.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .staff__title {
@@ -242,10 +246,7 @@
   color: #fff;
 }
 
-/* Agrega la regla CSS para tu nueva clase aquí. Asegúrate de colocarlo antes de .card:, los padres deben preceder a sus hijos */
-
-/*este es el adicional que se agrego */
-.staff__cards {
+.cards {
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
@@ -255,10 +256,7 @@
   max-width: 760px;
   padding: 68px 0 0 0;
 }
-.container {
-  display: flex;
-  justify-content: center;
-}
+
 .card {
   background-color: #fff;
   border-radius: 6px;
@@ -390,27 +388,24 @@
   margin: 0;
 }
 .footer {
-  display: flex;
-  justify-content: center;
   background-color: #1f1f1f;
-  padding-left: 80px;
-  padding-right: 80px;
-  padding-top: 60px;
+  color: #f2f2f2;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 60px 80px;
 }
 
 .footer__columns {
-  width: 90%;
   display: flex;
-  margin-bottom: 130px;
+  justify-content: space-around;
 }
 
 .footer__column_content_hours {
-  position: relative;
-  right: 100px;
+  margin-left: auto;
+  margin-right: 100px;
 }
 
 .footer__column_content_social {
-  position: relative;
   text-align: center;
 }
 
@@ -420,40 +415,26 @@
 }
 
 .footer__list {
-  /* El siguiente código elimina los estilos predeterminados del navegador para las listas */
   list-style-type: none;
   padding: 0;
   margin: 0;
-  line-height: 30px;
 }
 
 .footer__list-item {
-  line-height: 30px;
-  font-size: 10px;
-  font-weight: normal;
-  list-style: none;
   display: flex;
   flex-direction: column;
   color: #f2f2f2;
-  padding: 0%;
-  padding-top: 0%;
+  margin-bottom: 16px;
 }
 
 .footer__column-heading {
-  line-height: 30px;
-  font-size: 13px;
-  font-weight: bold;
-  color: #f2f2f2;
+  font-size: 16px;
   margin-bottom: 20px;
 }
 
 .footer__column-link {
-  color: white;
-  font-size: 10px;
-  line-height: 20px;
   text-decoration: none;
-  opacity: 1;
-  display: flex;
+  color: #f2f2f2;
   gap: 10px;
   display: -webkit-box;
 }
@@ -469,22 +450,5 @@
 }
 
 .footer__copyright {
-  flex-basis: 711px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  position: relative;
-}
-
-.footer__author {
-  line-height: 25px;
-  font-size: 18px;
-  padding-bottom: 18px;
-  padding-top: 18px;
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-  color: white;
-  bottom: -108px;
-  position: absolute;
+  margin-top: 108px;
 }
