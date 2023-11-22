@@ -42,6 +42,10 @@
   font-weight: bold;
 }
 
+.nav__link:hover {
+  color: #1f69c9;
+}
+
 .header__title {
   margin-top: 128px;
   font-size: 66px;
@@ -77,6 +81,10 @@
 .header__link {
   color: #2f80ed;
   text-decoration: none;
+}
+
+.header__link:hover {
+  color: #1f69c9;
 }
 
 .header__address {
@@ -152,6 +160,10 @@
 .events__more {
   color: #2f80ed;
   text-decoration: none;
+}
+
+.events__more:hover {
+  color: #1f69c9;
 }
 
 .events__cover {
@@ -246,7 +258,7 @@
   color: #fff;
 }
 
-.cards {
+.staff__cards {
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
@@ -293,6 +305,7 @@
   font-size: 14px;
   line-height: 20px;
   color: #838383;
+  margin-top: auto;
 }
 
 .membership {
