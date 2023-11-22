@@ -280,7 +280,6 @@
   line-height: 30px;
   font-weight: 700;
   margin: 0;
-  /*prueba*/
 }
 
 .card__text {
@@ -314,14 +313,12 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  /* Agrega estilos */
   display: flex;
   justify-content: center;
   column-gap: 40px;
 }
 
 .step {
-  /* Agrega estilos */
   flex-basis: 220px;
 }
 
